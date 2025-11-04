@@ -1,11 +1,11 @@
-TASKFLOW - GESTOR DE TAREFAS
+# TASKFLOW - GESTOR DE TAREFAS
 
 - Visão Geral:
 O TaskFlow é um sistema de gerenciamento de tarefas desenvolvido com Next.js 14+, TypeScript, Tailwind CSS e integração com Firebase (Firestore + Authentication).
 O objetivo é oferecer uma plataforma completa para organização de tarefas, com recursos como Kanban, Calendário, Dashboard com métricas, e acessibilidade digital.
 
 
-- Tecnologias Utilizadas:
+# Tecnologias Utilizadas:
 
 Framework: Next.js (App Router)
 Linguagem: TypeScript
@@ -22,7 +22,7 @@ Temas: Next-Themes
 Notificações: Sonner
 Acessibilidade: VLibras + temas visuais
 
-- Estrutura de Pastas:
+# Estrutura de Pastas:
   
 /app
   ├── layout.tsx
@@ -39,7 +39,7 @@ Acessibilidade: VLibras + temas visuais
 /hooks
 /types
 
-- Modelagem de Dados (TypeScript):
+# Modelagem de Dados (TypeScript):
   
 // /types/user.ts
 export interface User {
@@ -80,7 +80,7 @@ npm install
 # 4. Execute o projeto
 npm run dev
 
-- Funcionalidades:
+# Funcionalidades:
 
 . Landing Page com menu responsivo e call-to-action.
 . Cadastro e login via Firebase Authentication.
@@ -91,7 +91,7 @@ npm run dev
 . Página de detalhes da tarefa com edição completa.
 . Recursos de acessibilidade (VLibras + temas).
 
-- Desafios Técnicos e Soluções:
+# Desafios Técnicos e Soluções:
 
 Gerenciamento de estado no Kanban:
 → Usar Zustand ou Context API para sincronizar tarefas entre lista e quadro.
