@@ -1,11 +1,11 @@
 TASKFLOW - GESTOR DE TAREFAS
 
-- Visão Geral
+- Visão Geral:
 O TaskFlow é um sistema de gerenciamento de tarefas desenvolvido com Next.js 14+, TypeScript, Tailwind CSS e integração com Firebase (Firestore + Authentication).
 O objetivo é oferecer uma plataforma completa para organização de tarefas, com recursos como Kanban, Calendário, Dashboard com métricas, e acessibilidade digital.
 
 
-- Tecnologias Utilizadas
+- Tecnologias Utilizadas:
 
 Framework: Next.js (App Router)
 Linguagem: TypeScript
