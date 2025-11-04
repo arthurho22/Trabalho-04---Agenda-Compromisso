@@ -22,7 +22,8 @@ Temas: Next-Themes
 Notificações: Sonner
 Acessibilidade: VLibras + temas visuais
 
-- Estrutura de Pastas
+- Estrutura de Pastas:
+  
 /app
   ├── layout.tsx
   ├── page.tsx (Landing Page)
@@ -38,7 +39,8 @@ Acessibilidade: VLibras + temas visuais
 /hooks
 /types
 
-- Modelagem de Dados (TypeScript)
+- Modelagem de Dados (TypeScript):
+  
 // /types/user.ts
 export interface User {
   id: string;
@@ -78,7 +80,7 @@ npm install
 # 4. Execute o projeto
 npm run dev
 
-- Funcionalidades
+- Funcionalidades:
 
 . Landing Page com menu responsivo e call-to-action.
 . Cadastro e login via Firebase Authentication.
@@ -89,7 +91,7 @@ npm run dev
 . Página de detalhes da tarefa com edição completa.
 . Recursos de acessibilidade (VLibras + temas).
 
-- Desafios Técnicos e Soluções
+- Desafios Técnicos e Soluções:
 
 Gerenciamento de estado no Kanban:
 → Usar Zustand ou Context API para sincronizar tarefas entre lista e quadro.
